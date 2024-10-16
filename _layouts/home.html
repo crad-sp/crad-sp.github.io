@@ -1,0 +1,188 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+
+<div class="pb-1 container col-sm-12 col-lg-9 text-justify bg-light">
+  <!-- Sobre -->
+  <section class="sobre">
+    <p class="lead">{{ site.data.pagina-cradsp.sobre.texto }}</p>
+  </section>
+  <!-- Atividades -->
+  <section class="atividades" id="atividades">
+    <h4 class="text-center">Atividades</h4>
+    <div class="container conteudo-atividades">
+      <ul>
+        <li>Apoio à organização da ERAD-SP.</li>
+        <li>Revisão do regimento da CRAD-SP.
+          <p class="pt-3 lead"><a href="{{ site.data.pagina-cradsp.estatuto.regimento-atual }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i>Regimento da CRAD-SP</a></p>
+          <p class="pt-2 lead">{{ site.data.pagina-cradsp.estatuto.texto }}</p>
+        </li>
+      </ul>
+      <p class="lead font-italic">Atas das Assembleias:</p>
+        <div class="row text-start">
+        <div class="col-sm-12 col-md-3">
+        {% for ata in site.data.pagina-cradsp.atas limit:5%}
+            <p style="margin: 0">
+              <a href="{{ ata.link }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-file-lines">
+                </i> {{ ata.nome }}
+              </a>
+            </p>
+        {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-3">
+        {% for ata in site.data.pagina-cradsp.atas limit:5 offset:continue%}
+            <p style="margin: 0">
+              <a href="{{ ata.link }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-file-lines">
+                </i> {{ ata.nome }}
+              </a>
+            </p>
+        {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-3">
+        {% for ata in site.data.pagina-cradsp.atas limit:5 offset:continue%}
+            <p style="margin: 0">
+              <a href="{{ ata.link }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-file-lines">
+                </i> {{ ata.nome }}
+              </a>
+            </p>
+        {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-3">
+        {% for ata in site.data.pagina-cradsp.atas limit:5 offset:continue%}
+            <p style="margin: 0">
+              <a href="{{ ata.link }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-file-lines">
+                </i> {{ ata.nome }}
+              </a>
+            </p>
+        {% endfor %}
+        </div>
+    </div>
+    </div>
+  </section>
+  <!-- Institucional -->
+  <!-- Membros Honorários -->
+  <!--
+  <section class="membros-honorarios" id="membros-honorarios">
+    <h4 class="text-center">Membros Honorários</h4>
+    <div class="container conteudo-membros-honorarios">
+      <p class="lead font-italic">Nominata em ordem de ano e alfabética:</p>
+      <ul>
+        {% for membro in site.data.pagina-cradsp.membros-honorarios %}
+          <li>{{ membro.nome }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  -->
+  <!-- Comissão Executiva -->
+  <section class="comissao-executiva" id="comissao-executiva">
+    <h4 class="text-center">Comissão Executiva</h4>
+    <div class="container conteudo-comissao-executiva">
+      <p class="lead font-italic">Nominata da Comissão Executiva em ordem alfabética:</p>
+      <ul>
+        {% for membro in site.data.pagina-cradsp.comissao-executiva %}
+          <li class="mb-1">{{ membro.nome }}</li>
+        {% endfor %}
+      </ul>
+      <p class="lead font-italic">Registro Histórico da Composição das Comissões Executivas:</p>
+      <ul>
+        <li style="list-style-type: none;"><a href="historico-comissoes-executivas.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Acesso às nominatas</a></li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Comissão Deliberativa -->
+  <!--
+  <section class="comissao-deliberativa" id="comissao-deliberativa">
+    <h4 class="text-center">Comissão Deliberativa</h4>
+    <div class="container conteudo-comissao-deliberativa">
+      <p class="lead font-italic">Relação em ordem alfabética de instituição e representante:</p>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th style="text-align: center;">Instituição</th>
+              <th style="text-align: center;">Representantes</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for instituicao in site.data.pagina-cradsp.comissao-deliberativa %}
+              <tr>
+                <td style="text-align: center;" class="align-middle">{{ instituicao.nome }}</td>
+                  <td style="text-align: center;" class="align-middle">
+                    {% for representante in instituicao.representantes %}
+                    <strong>{{ representante.nome }}</strong><br>{{ representante.contato }}<br>
+                    {% endfor %}
+                  </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </section>
+  -->
+
+  <!-- Edições -->
+  <section class="edicoes mb-5" id="erads">
+    <h4 class="text-center">ERAD - Edições</h4>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-12 col-md-3">
+          {% for edicao in site.data.pagina-eradsp.edicoes limit:4 %}
+            <p style="margin: 0">
+              <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-arrow-up-right-from-square">
+                </i> {{ edicao.nome }}
+              </a>
+            </p>
+            <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-3">
+          {% for edicao in site.data.pagina-eradsp.edicoes limit:4 offset:continue %}
+          <p style="margin: 0">
+            <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square">
+              </i> {{ edicao.nome }}
+            </a>
+          </p>
+          <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-3">
+          {% for edicao in site.data.pagina-eradsp.edicoes limit:4 offset:continue %}
+          <p style="margin: 0">
+            <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square">
+              </i> {{ edicao.nome }}
+            </a>
+          </p>
+          <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
+          {% endfor %}
+        </div>
+        <div class="col-sm-12 col-md-3">
+          {% for edicao in site.data.pagina-eradsp.edicoes limit:4 offset:continue %}
+          <p style="margin: 0">
+            <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-arrow-up-right-from-square">
+              </i> {{ edicao.nome }}
+            </a>
+          </p>
+          <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- footer -->

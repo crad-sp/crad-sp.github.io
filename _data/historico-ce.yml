@@ -1,0 +1,47 @@
+nominatas:
+  - periodo: "2021-2023"
+    membros:
+      - nome: "<b>Prof. Emilio Francesquini (UFABC) - Presidente</b>"
+      - nome: "<b>Profa. Sarita Mazzini Bruschi (ICMC-USP) - Presidente</b>"
+      - nome: "Prof. Calebe Bianchini (Mackenzie)"
+      - nome: "Prof. Celso Luiz Mendes (INPE)"
+      - nome: "Prof. Aleardo Manacero Jr. (IBILCE/UNESP)"
+  - periodo: "2018-2020"
+    membros:
+      - nome: "<b>Prof. Edson Borin (IC/UNICAMP) - Presidente</b>)"
+      - nome: "Prof. Daniel Cordeiro (EACH/USP)"
+      - nome: "Prof. Denise Stringhini (UNIFESP)"
+      - nome: "Prof. Rogério Iope (NCC/UNESP)"
+      - nome: "Prof. Rafael Camargo (UFABC)"
+  - periodo: "2015-2018"
+    membros:
+      - nome: "<b>Prof. Calebe Bianchini (Mackenzie - Presidente</b>)"
+      - nome: "Prof. Alexandro Baldassin (IGCE/UNESP)"
+      - nome: "Prof. Álvaro Fazenda (UNIFESP)"
+      - nome: "Prof. Daniel Cordeiro (EACH/USP)"
+      - nome: "Prof. Paulo Souza (ICMC/USP)"
+  - periodo: "2013-2015"
+    membros:
+      - nome: "<b>Prof. Guido Araujo (IC/UNICAMP) - Presidente</b>"
+      - nome: "Prof. Alfredo Goldman (IME/USP)"
+      - nome: "Prof. Denise Stringhini (Mackenzie)"
+      - nome: "Prof. Jairo Panetta (ITA/IEC)"
+      - nome: "Prof. Philippe Navaux (UFRGS)"
+      - nome: "Prof. Siang Song (UFABC)"
+  - periodo: "2011-2013"
+    membros:
+      - nome: "<b>Profa. Liria Sato (EPUSP) - Presidente</b>"
+      - nome: "Prof. Alfredo Goldman (IME/USP)"
+      - nome: "Prof. Denise Stringhini (Mackenzie)"
+      - nome: "Prof. Jairo Panetta (ITA/IEC)"
+      - nome: "Prof. Philippe Navaux (UFRGS)"
+      - nome: "Prof. Siang Song (UFABC)"
+
+
+#  - periodo: ""
+#    membros:
+#      - nome: "<b></b>"
+#      - nome: ""
+#      - nome: ""
+#      - nome: ""
+#      - nome: ""
