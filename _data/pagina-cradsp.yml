@@ -9,7 +9,7 @@ sobre:
 
 estatuto:
   texto: "O regimento interno da CRAD-SP está em permanente de discussão. Alterações e contribuições são discutidas duas vezes ao ano, durante a realização da ERAD-SP e do Simpósio em Sistemas Computacionais de Alto Desempenho (SSCAD)."
-  regimento-atual: "docs/cradrs_estatuto-revisao-04abril2018.pdf"
+  regimento-atual: "docs/Regimento CRAD-SP.pdf"
   revisoes:
     - desc: "Assembléia da CRAD/RS, ERAD 2013, 22/03/2013 - Inclusão da figura do Membro Honorário (vide Artigo 19, item f)"
       link: "docs/revisoes_estatuto/ataassembleia-da-crad-erad2013.pdf"
