@@ -1,11 +1,17 @@
 footer {
-      background-color: rgb(143 188 143);
+    background-image: url(/img/saopaulo.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
 #jumbotron {
     padding: 1rem 1rem;
+    background-color: rgb(30 30 75);
 }
 
 .logo_cradsp_footer {
-    width: 40%;
+    width: 30%;
 }
+
+
