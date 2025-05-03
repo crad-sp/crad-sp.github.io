@@ -8,7 +8,7 @@ sobre:
 ## Atividades:
 
 estatuto:
-  texto: "O regimento interno da CRAD-SP está em permanente de discussão. Alterações e contribuições são discutidas duas vezes ao ano, durante a realização da ERAD-SP e do Simpósio em Sistemas Computacionais de Alto Desempenho (SSCAD)."
+  texto: "O regimento interno da CRAD-SP está em permanente discussão. Alterações e contribuições são discutidas duas vezes ao ano, durante a realização da ERAD-SP e do Simpósio em Sistemas Computacionais de Alto Desempenho (SSCAD)."
   regimento-atual: "docs/Regimento CRAD-SP.pdf"
   revisoes:
     - desc: "Assembléia da CRAD/RS, ERAD 2013, 22/03/2013 - Inclusão da figura do Membro Honorário (vide Artigo 19, item f)"
@@ -35,183 +35,6 @@ comissao-executiva:
   - nome: "Prof. Hermes Senger (UFSCar)"
   - nome: "Prof. Raphael Camargo (UFABC)"
 
-
-comissao-deliberativa:
-  - instituicao:
-    nome: "CESUP, RS"
-    representantes:
-      - nome: "Denise Ewald"
-        contato: "super at cesup.ufrgs.br"
-      - nome: "Magali Longhi"
-        contato: "magali at cesup.ufrgs.br"
-  - instituicao:
-    nome: "EMBRAPA (ETB), RS"
-    representantes:
-      - nome: "Nelsi Warken"
-        contato: "nelsi.warken at embrapa.br"
-  - instituicao:
-    nome: "Feevale, RS"
-    representantes:
-      - nome: "Edvar B. Araújo"
-        contato: "edvar at feevale.br "
-  - instituicao:
-    nome: "FURG, RS"
-    representantes:
-      - nome: "Pedro de Botelho Marcos"
-        contato: "pbmarcos at furg.br"
-      - nome: "Vinícius Garcia Pinto"
-        contato: " vinicius.pinto at furg.br"
-  - instituicao:
-    nome: "IFSul, RS "
-    representantes:
-      - nome: "João Ladislau B. Lopes"
-        contato: "joaolopes at cavg.ifsul.edu.br"
-      - nome: "Rodrigo Santos de Souza"
-        contato: "rodrigosouza at pelotas.ifsul.edu.br"  
-  - instituicao:
-    nome: "PUCRS, RS "
-    representantes:
-      - nome: "Luiz Gustavo Fernandes"
-        contato: "luiz.fernandes at pucrs.br"
-      - nome: "Tiago Ferreto"
-        contato: "tiago.ferreto at pucrs.br"  
-  - instituicao:
-    nome: "SENAC (Pelotas), RS "
-    representantes:
-      - nome: "Carlos Vinicius Rasch Alves"
-        contato: "cvalves at senacrs.edu.br"
-      - nome: "Angelo Gonçalves Luz"
-        contato: "agluz at senacrs.edu.br"  
-  - instituicao:
-    nome: "SETREM, RS"
-    representantes:
-      - nome: "Fauzi de Moraes Shubeita"
-        contato: "fauzi at setrem.com.br"
-  - instituicao:
-    nome: "UCPEL, RS"
-    representantes:
-      - nome: "Adenauer Corrêa Yamin"
-        contato: "adenauer.yamin at ucpel.edu.br"
-      - nome: "Cláudio Machado Diniz"
-        contato: "claudio.diniz at ucpel.edu.br"  
-  - instituicao:
-    nome: "UCS, RS"
-    representantes:
-      - nome: "André Luis Martinotto"
-        contato: "almartin at ucs.br"
-      - nome: "Ricardo Vargas Dorneles"
-        contato: "RVDornel at ucs.br"  
-  - instituicao:
-    nome: "UDESC, SC"
-    representantes:
-      - nome: "Maurício Aronne Pillon"
-        contato: "mauricio.pillon at udesc.br"
-      - nome: "Guilherme Piêgas Koslovski"
-        contato: "guilherme.koslovski at udesc.br"  
-  - instituicao:
-    nome: "UFPEL, RS"
-    representantes:
-      - nome: "André Du Bois"
-        contato: "dubois at inf.ufpel.edu.br"
-      - nome: "Gerson G. H. Cavalheiro"
-        contato: "gerson.cavalheiro at inf.ufpel.edu.br"  
-  - instituicao:
-    nome: "UFPR, PR"
-    representantes:
-      - nome: "Marco Antonio Zanata Alves"
-        contato: "mazalves at inf.ufpr.br"
-      - nome: "Daniel Weingaertner"
-        contato: "danielw at inf.ufpr.br"  
-  - instituicao:
-    nome: "UFRGS, RS"
-    representantes:
-      - nome: "Alexandre da Silva Carissimi"
-        contato: "asc at inf.ufrgs.br"
-      - nome: "Philippe O. A. Navaux"
-        contato: "navaux at inf.ufrgs.br"  
-  - instituicao:
-    nome: "UFSC, SC "
-    representantes:
-      - nome: "Márcio Bastos Castro"
-        contato: "marcio.castro at ufsc.br"
-      - nome: "Odorico Machado Mendizabal"
-        contato: "odorico.mendizabal at ufsc.br"  
-  - instituicao:
-    nome: "UFSM, RS"
-    representantes:
-      - nome: "Marcia Pasin"
-        contato: "marcia at inf.ufsm.br"
-      - nome: "João V. F. Lima"
-        contato: "jvlima at inf.ufsm.br"  
-  # - instituicao:
-  #   nome: "ULBRA, RS"
-  #   representantes:
-  #     - nome: "-"
-  #       contato: ""
-  #     - nome: "-"
-  #       contato: ""  
-  - instituicao:
-    nome: "UNIFRA, RS"
-    representantes:
-      - nome: "Ana Paula Canal"
-        contato: "apc at unifra.br"
-  - instituicao:
-    nome: "UNIJUI, RS"
-    representantes:
-      - nome: "Edson Luiz Padoin"
-        contato: "padoin at unijui.edu.br"
-  - instituicao:
-    nome: "UNIOESTE, PR"
-    representantes:
-      - nome: "Guilherme Galante"
-        contato: "guilherme.galante at unioeste.br"
-      - nome: "Luiz Antonio Rodrigues"
-        contato: "luiz.rodrigues at unioeste.br"  
-  - instituicao:
-    nome: "UNIPAMPA, RS"
-    representantes:
-      - nome: "Claudio Schepke"
-        contato: "schepke at gmail.com"
-      - nome: "Leonardo Bidese de Pinho"
-        contato: "leonardo.pinho at unipampa.edu.br"  
-  - instituicao:
-    nome: "UNIRITTER, RS"
-    representantes:
-      - nome: "Átila Bohlke Vasconcelos"
-        contato: "atila_vasconcelos at uniritter.edu.br"
-      - nome: "Mozart Lemos de Siqueira"
-        contato: "mozars at uniritter.edu.br"  
-  - instituicao:
-    nome: "UNISC, RS"
-    representantes:
-      - nome: "Daniela Saccol Peranconi"
-        contato: "danielap at unisc.br"
-  - instituicao:
-    nome: "UNISINOS, RS"
-    representantes:
-      - nome: "Cristiano André da Costa"
-        contato: "cac at unisinos.br"
-      - nome: "Rodrigo da Rosa Righi"
-        contato: "rrrighi at unisinos.br"  
-  - instituicao:
-    nome: "UNIVALI, SC"
-    representantes:
-      - nome: "Valderi R. Q. Leithardt"
-        contato: "valderi at univali.br"
-      - nome: "Cesar Albenes Zeferino"
-        contato: "zeferino at univali.br"  
-  - instituicao:
-    nome: "UPF, RS"
-    representantes:
-      - nome: "Carlos Amaral Holbig"
-        contato: "holbig at upf.br"
-      - nome: "Marcelo Trindade Rebonatto"
-        contato: "rebonatto at upf.br" 
-  - instituicao:
-    nome: "URI (Santo Angelo), RS"
-    representantes:
-      - nome: "Carlos Oberdan Rolim"
-        contato: "ober at san.uri.br"
 #  - instituicao:
 #    nome: ""
 #    representantes:
@@ -222,8 +45,8 @@ comissao-deliberativa:
 
 atas:
 
-  #- nome: "17/05/2024 - ERAD-SP"
-  #  link: "docs/atas/2024-Ata-Assembleia-CRAD-ERAD2024.pdf"
+  - nome: "17/05/2024 - ERAD-SP"
+    link: "docs/atas/2024-Ata-Assembleia-CRAD-ERAD2024.pdf"
   - nome: "17/07/2023 - ERAD-SP"
     link: "docs/atas/2023-Ata-Assembleia-CRAD-ERAD2023.pdf"
   - nome: "20/10/2022 - WSCAD"
@@ -269,12 +92,12 @@ atas:
 
 # Informações: _includes/footer.html
 
-informacoes-crad:
-  - nome: "Lista de discussão da CRAD/RS"
-    link: "https://listas.inf.ufrgs.br/mailman/listinfo/cradrs-l/"
-  - nome: "Site institucional da ERAD/RS na SBC"
-    link: "http://www2.sbc.org.br/erad/"
-  - nome: "Comissão Especial da SBC de Arquitetura de Computadores e Processamento de Alto Desempenho"
-    link: "http://sbc.org.br/14-comissoes/380-arquitetura-de-comp-e-proc-de-alto-desempenho"
+#informacoes-crad:
+#  - nome: "Lista de discussão da CRAD/RS"
+#    link: "https://listas.inf.ufrgs.br/mailman/listinfo/cradrs-l/"
+#  - nome: "Site institucional da ERAD/RS na SBC"
+#    link: "http://www2.sbc.org.br/erad/"
+#  - nome: "Comissão Especial da SBC de Arquitetura de Computadores e Processamento de Alto Desempenho"
+#    link: "http://sbc.org.br/14-comissoes/380-arquitetura-de-comp-e-proc-de-alto-desempenho"
 #  - nome:
 #  - link:
