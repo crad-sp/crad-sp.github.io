@@ -24,16 +24,13 @@ ERAD:
 
 ## Institucional:
 
-membros-honorarios:
-  - nome: "Prof. Tiaraju Asmuz Diverio (UFRGS), título outorgado em <b>19/10/2012</b>, em assembléia da CRAD/RS no WSCAD-SSC 2012, em Petrópolis, RJ."
-  - nome: "Prof. Adenauer Corrêa Yamin (UCPEL/UFPEL), título outorgado em <b>12/04/2019</b>, em assembléia da CRAD/RS na ERAD 2019, em Três de Maio, RS."
-  - nome: "Prof. Philippe Olivier Alexandre Navaux (UFRGS), título outorgado em <b>12/04/2019</b>, em assembléia da CRAD/RS na ERAD 2019, em Três de Maio, RS"
-  - nome: "Prof. César Augusto Fonticielha De Rose (PUCRS), título outorgado em <b>12/05/2023</b>, em assembléia da CRAD/RS na ERAD 2023, em Porto Alegre, RS"
+membros-emeritos:
+  - nome: "Profa. Líria Sato (USP), título outorgado em <b>24/10/2024</b>, em assembléia da CRAD/SP no SSCAD 2024, em São Carlos, SP."
 
 comissao-executiva:
-  - nome: "<b>Prof. Alexandro Baldassin (UNESP) - Presidente</b>"
-  - nome: "Prof. Hermes Senger (UFSCar)"
-  - nome: "Prof. Raphael Camargo (UFABC)"
+  - nome: "<b>Prof. Daniel Cordeiro (EACH/USP) - Presidente</b>"
+  - nome: "Prof. Sandro Rigo (IC/UNICAMP)"
+  - nome: "Prof. Sarita Mazzini Bruschi (ICMC/USP)"
 
 #  - instituicao:
 #    nome: ""
@@ -45,6 +42,8 @@ comissao-executiva:
 
 atas:
 
+  - nome: "24/10/2024 - SSCAD-SP"
+    link: "docs/atas/2024-Ata-Assembleia-CRAD-SSCAD2024.pdf"
   - nome: "17/05/2024 - ERAD-SP"
     link: "docs/atas/2024-Ata-Assembleia-CRAD-ERAD2024.pdf"
   - nome: "17/07/2023 - ERAD-SP"

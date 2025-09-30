@@ -115,6 +115,10 @@ edicoes:
 
   - nome: "ERAD 2024"
     local: "Rio Claro"
+    link: "https://erad-sp.github.io/2024"
+
+  - nome: "ERAD 2025"
+    local: "São José do Rio Preto"
     link: "https://erad-sp.github.io/"
 #    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=785"
 #    capa: "img/capas_erad/capa2015.jpg"
